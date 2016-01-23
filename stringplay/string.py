@@ -17,5 +17,5 @@ class StringPlay(unittest.TestCase):
         self.assertEqual('random'[2:5], 'ndo')
 
     def testCapitalize(self):
-        fullname = ' '.join(map(str.capitalize, 'cash sun'.split(' ')))
-        self.assertEqual(fullname, 'Cash Sun')
+        fullname = ', '.join(map(str.capitalize, 'cash sun'.split(' ')))
+        self.assertEqual(fullname, 'Cash, Sun')
